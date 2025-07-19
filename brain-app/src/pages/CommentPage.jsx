@@ -33,9 +33,18 @@ export default function CommentPage() {
 
     return (
         <section>
-            
-            <h2>Share your thoughts...</h2>
-            
+
+            <div>
+                <h2>Share your thoughts...</h2>
+            </div>
+
+            {/*
+                - Created CommentForm, a reusable component
+                - Used props to send and receive data
+                - Used useState to track changes to Name, Text, or Submit
+                - Created functions to handle those changes 
+             */}
+
             <CommentForm 
                 name={name}
                 text={text}
@@ -44,6 +53,13 @@ export default function CommentPage() {
                 onSubmit={handleSubmit}
             />
             
+            {/*
+                - Created CommentList, another reusable component
+                - Used props to send and receive data
+                - Used useState to track if Edit or Delete were clicked
+                - Created functions to handle those changes
+            */}
+
             <CommentList 
                 comments={comments}
                 onEdit={handleEdit}

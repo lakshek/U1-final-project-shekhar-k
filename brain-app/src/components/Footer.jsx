@@ -1,4 +1,4 @@
-import LineBrain from '../assets/LineBrain.jpg'
+import BrainIcon from '../assets/BrainIcon.jpg'
 
 export default function Footer() {
     return (
@@ -6,10 +6,10 @@ export default function Footer() {
         <footer>
             <p>
                 &copy; 2025
-                {/* <img src={LineBrain} alt="Line Brain image" /> */}
-                {/* nlitn | learning spaces | */}
+                <img src={BrainIcon} alt="Brain Icon image" />
+                nlitn | learning spaces |
             </p>
         </footer>
-        
+
     )
 }

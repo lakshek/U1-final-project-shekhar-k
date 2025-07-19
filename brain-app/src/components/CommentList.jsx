@@ -9,9 +9,9 @@ export default function CommentList({ comments, onEdit, onDelete }) {
             {comments.length === 0 ? (
                 <p>Be the first one to comment</p>
             ) : (
-                <ul>
+                <ul className='comment-ul' >
                     {comments.map((comment, index) => (
-                        <li key={index}>
+                        <li key={index} className='comment-li'>
                             <strong>{comment.name}</strong>
                             <p>{comment.text}</p>
                             <Button label="Edit" onClick={() => onEdit(index)} />
@@ -20,7 +20,7 @@ export default function CommentList({ comments, onEdit, onDelete }) {
                     ))}
                 </ul>
             )}
-            
+
         </div>
 
     )

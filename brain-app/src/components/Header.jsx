@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
-import BrainIcon from '../assets/BrainIcon.jpeg';
+import BrainIcon from '../assets/BrainIcon.jpg';
 
 export default function Header() {
     return (
         <header>
 
-            <div>
-                {/* <img src={BrainIcon} alt="Brain Icon image" /> */}
+            <div className="logo-title-container">
+                <img src={BrainIcon} alt="An image of connected lines with dots in the shape of human brain" />
                 <h1>Wired to Learn</h1>
             </div>
 
