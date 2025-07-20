@@ -7,6 +7,7 @@ import AboutPage from './pages/AboutPage'
 import ExplorePage from './pages/ExplorePage'
 import CommentPage from './pages/CommentPage'
 import './App.css'
+import './Responsive.css'
 
 export default function App() {
 

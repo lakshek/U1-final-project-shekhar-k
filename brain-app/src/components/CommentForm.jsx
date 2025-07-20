@@ -11,7 +11,7 @@ export default function CommentForm({
 
         <form onSubmit={onSubmit}>
         
-            <label>Name:</label>
+            <label htmlFor='name'>Name:</label>
                 <input
                     id="name"
                     type="text"
@@ -21,7 +21,7 @@ export default function CommentForm({
                     required
             />
         
-            <label>Comment:</label>
+            <label htmlFor='comment'>Comment:</label>
                 <textarea
                     id="comment"
                     value={text}
