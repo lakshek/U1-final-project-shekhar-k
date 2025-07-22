@@ -1,3 +1,4 @@
+// define reusable component with destructured props
 export default function Button({
     label,
     onClick,
@@ -10,4 +11,5 @@ export default function Button({
         </button>
         
     );
+    
 }

@@ -1,23 +1,30 @@
+// Import React hook
 import { useState } from 'react'
+
+// Import reusable component to render details about the selected topic
 import TopicCard from '../components/TopicCard'
+
+// Import topics data from data folder
 import { topics } from '../data/topics.js'
 
 export default function ExplorePage() {
 
     const [chosen, setChosen] = useState("")
 
-    {/* Using .find() method to find the topic id of the topic that was chosen and converted to a Number (since id is a number) before getting the topic details */}
+    {/* Use .find() method to find the key and convert to a Number (since id is a number) before getting the topic details */}
     const topic = topics.find(topic => topic.id === Number(chosen));
 
     return (
+        
         <section>
 
             <div>            
             
-                <h2>Get information on different topics</h2>
+                <h2>Baby's got the mic. 🎤 Hit it, Nu Ron.</h2>
                 
+                {/* Use state variable to capture topic selection and .map() method to display the topic chosen */}
                 <select value={chosen} onChange={e => setChosen(e.target.value)} >
-                    <option value="">Choose a topic</option>
+                    <option value="">C'mon! Take your pick... 👇</option>
                     {topics.map(topic => (
                         <option key={topic.id} value={topic.id} >{topic.name}</option>
                     ))}
@@ -25,13 +32,18 @@ export default function ExplorePage() {
 
             </div>
 
-            {/* Animation to display a topic card when a topic has been chosen */}
+            {/* Use a spread operator to pass the chosen topic's object as props and use reusable component to render the details of the topic */}
+            {/* Animation to display a topic card if a topic is chosen */}
             { topic && (
+
                 <div className='fade-in-element' key={chosen}>
                     <TopicCard {...topic} />
                 </div>
+
             )}
 
         </section>
+
     )
+
 }

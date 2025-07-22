@@ -14,7 +14,7 @@ body {
 }
 
 section {
-    max-inline-size: 1000px;
+    max-inline-size: 1100px;
     margin-inline: auto;
 }
 
@@ -106,6 +106,21 @@ button:hover {
     background-color: rgb(90, 169, 248);
 }
 
+.btn-link {
+    display: inline-block;
+    background-color: rgb(25, 60, 95);
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: clamp(0.75rem, 1.6vw, 1rem);
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    background-color: rgb(90, 169, 248);
+}
+
 /* Image and Video */
 img {
     max-inline-size: 100%;
@@ -155,7 +170,8 @@ th, td {
 
 caption {
     font-weight: bold;
-    margin-bottom: 20px;
+    font-size: clamp(1.15rem, 2.35vw, 1.5rem);
+    margin: 30px 0px;
     color: rgb(25, 60, 95);
 }
 

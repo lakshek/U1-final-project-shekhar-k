@@ -1,15 +1,20 @@
+// import image
 import BrainIcon from '../assets/BrainIcon.jpg'
 
 export default function Footer() {
+
     return (
 
         <footer>
+
             <p>
                 &copy; 2025
-                <img src={BrainIcon} alt="Brain Icon image" />
+                <img src={BrainIcon} alt="An image of connected lines with dots in the shape of human brain" />
                 nlitn | learning spaces |
             </p>
+
         </footer>
 
     )
+
 }
