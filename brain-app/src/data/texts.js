@@ -9,14 +9,14 @@ Even when you sleep 😴, we're buzzing around like sugar—fueled toddlers.
 
 Why? Because *we've got one job:* **taking care of you.** And we take that job very seriously.
 
-You had a thought ("I should read this"), then clicked the button — **boom**, instant brain magic ⚡️
+You had a thought ("I should read this"), then — **boom**, you clicked the button — instant brain magic ⚡️
 
 **Input → brain → output.** 
 `
 ;
 
 export const homeIntroText2 = 
-`I know what you're thinking: *“That's like a computer.”* 💻🤓
+`I know what you're thinking: *“That's like a computer.”* 💻
 
 Nope. Computers are like us. We were here first.
 
@@ -24,7 +24,7 @@ We moved in before you were even born — setting up shop, making connections (w
 
 Anytime you see, hear, hug, cry, or even overthink bedtime routines, we're **forming connections** ⚡️ just for you.
 
-And the more you *repeat* something (yes, even reading *Goodnight Moon* for the 9,000th time), the **stronger those connections get.** 💪🔗
+And the more you *repeat* something (yes, even reading *Goodnight Moon* for the 9,000th time), the **stronger those connections get.** 💪
 
 **Practice doesn't just make it perfect — makes it permanent.**
 
@@ -54,7 +54,7 @@ You've mastered walking. You don't even think about it. That was us. You're welc
 Just imagine if you gave up walking — like you sometimes think of giving up LaunchCode… ❓
 
 **Stick around. You can do this.**  
-We've got your back. *(And your brain.)* 💪🧠
+We've got your back. *(And your brain.)* 🧠
 
 So when you doubt yourself, just remember:  
 You're building new neural pathways with every late—night feed, every soothing bounce, every moment of connection, and every hook and link.
@@ -119,10 +119,10 @@ Childhood, teen angst, adulting — all of it.
 But the early years?  
 That's when we pour the foundation: **strong and steady, or wobbly and weak.**
 
-No pressure, right? 😅😬
+No pressure, right? 😅
 
 Just remember: **every drool—soaked milestone is a win.**  
-You're not just wiping spit-up — *you're helping build a brain.* 💖⚙️
+You're not just wiping spit-up — *you're helping build a brain.* ⚙️
 
 > Hey hey, I'm under construction! 🚧  
 > Every tickle, tune, and "don't eat that!" moment is laying down my brain's blueprint.
@@ -138,7 +138,7 @@ export const babyInCribDesc =
 Why does my life feel like a teeny tiny jail cell? 🔒
 
 I'm trying to figure out what this world looks like, okay?  
-But these crib bars? They're totally cramping my view. 👀🚫
+But these crib bars? They're totally cramping my view. 👀
 
 How's a baby supposed to get perspective when everything's vertical slats and stuffed giraffes?
 
@@ -172,9 +172,9 @@ My **auditory cortex** is lighting up like a disco ball.
 
 I'm *this close* to figuring out how to make real sounds — and what do you do?
 
-**You plug my mouth with this weird, rubbery, flavorless, speech—stopping thing.** 🛑😶
+**You plug my mouth with this weird, rubbery, flavorless, speech—stopping thing.** 😶
 
-A **pacifier**. 😤
+A **pacifier**. ❓
 
 Like, I'm going to just chill while I'm in the middle of decoding language?  
 **C'mon!**

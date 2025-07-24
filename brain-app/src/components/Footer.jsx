@@ -10,7 +10,7 @@ export default function Footer() {
             <p>
                 &copy; 2025
                 <img src={BrainIcon} alt="An image of connected lines with dots in the shape of human brain" />
-                nlitn | learning spaces |
+                Fueled by nano-sized neural whispers
             </p>
 
         </footer>
