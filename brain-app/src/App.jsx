@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route, HashRouter } from 'react-router-dom'
 
 // import components
 import Header from './components/Header'
@@ -19,7 +19,7 @@ export default function App() {
 
   return (
 
-      <Router>
+      <HashRouter>
         <Header />
           <main>
             <Routes>
@@ -30,7 +30,7 @@ export default function App() {
             </Routes>
           </main>
         <Footer />
-      </Router>
+      </HashRouter>
 
   )
 
